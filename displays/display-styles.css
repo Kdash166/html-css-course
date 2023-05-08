@@ -1,0 +1,42 @@
+.name-input,
+.email-input {
+  display: block;
+  padding: 5px;
+  margin: 8px 0px;
+  font-family: arial;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.customer-support {
+  display: flex;
+  align-items: center;
+}
+
+.customer-thanks {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Times New Roman";
+  width: 235px;
+}
+.yes-button,
+.no-button {
+  margin: 50px 3px;
+  border: black solid 1px;
+  padding: 4px 8px;
+  border-radius: 3px;
+  background-color: rgb(252, 222, 253);
+  font-size: 14px;
+}
+.google-logo {
+  margin: 20px 125px;
+}
+.search-bar {
+  display: block;
+  font-family: arial;
+  width: 550px;
+  border: none;
+  padding: 14px 5px;
+  box-shadow: 0 0 4px 1px rgb(167, 152, 147);
+  border-radius: 16px;
+}
