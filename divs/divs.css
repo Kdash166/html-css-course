@@ -1,0 +1,55 @@
+.red-square {
+  background-color: red;
+  width: 75px;
+  height: 75px;
+  margin-bottom: 10px;
+}
+.green-circle {
+  background-color: green;
+  width: 75px;
+  height: 75px;
+  border-radius: 40px;
+}
+.satisfied-questionaire {
+  margin: 15px 0px;
+  border: solid grey 1px;
+  padding: 10px 20px;
+  width: 355px;
+}
+.title {
+  font-family: Arial;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.yes-button,
+.no-button {
+  margin: 2px;
+  font-size: 15px;
+  padding: 6px 10px;
+  margin-bottom: 30px;
+  background-color: rgb(248, 207, 245);
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.youtube-ad {
+  border: none;
+  background-color: rgb(10, 10, 10);
+  color: white;
+  font-family: Arial;
+  padding: 1px 5px;
+  width: 390px;
+}
+.add-title {
+  font-weight: bolder;
+  font-size: x-large;
+  margin-bottom: 26px;
+  padding: 0px 6px;
+}
+.add-text {
+  font-size: 17px;
+  line-height: 150%;
+  padding: 0px 6px;
+  padding-bottom: 16px;
+}

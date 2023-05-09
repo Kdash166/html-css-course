@@ -1,0 +1,18 @@
+
+.search-bar{
+    display:block;
+}
+
+.container{
+    display:flex;
+    align-items: top;
+}
+.video-preview{
+    width:300px;
+    display: inline-block;
+    margin-right:15px;
+}
+.thumbnail {
+    display: block;
+    width: 300px;
+}

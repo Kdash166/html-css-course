@@ -1,0 +1,72 @@
+.first-name,
+.last-name,
+.email {
+  width: 100px;
+  padding: 8px 3px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.first-name::placeholder,
+.last-name::placeholder,
+.email::placeholder {
+  color: black;
+}
+.email {
+  display: block;
+  width: 212px;
+}
+
+.sign-up-button {
+  width: 220px;
+  padding: 11px 12px;
+  border: none;
+  background-color: rgb(18, 18, 252);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 12px;
+  transition: opacity 0.15s;
+}
+
+.sign-up-button:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.pickup-title {
+  font-family: Arial;
+  font-size: 36px;
+}
+
+.pickup-input,
+.dropoff-input {
+  display: block;
+  margin: 6px 0px;
+  border: none;
+  background-color: rgb(255, 214, 249);
+  padding: 13px;
+  width: 360px;
+  border-radius: 2px;
+}
+
+.pickup-input::placeholder,
+.dropoff-input::placeholder {
+  color: black;
+}
+
+.book-button,
+.schedule-button {
+  border: none;
+  padding: 15px;
+  margin-right:12px;
+  margin-top: 25px;
+}
+.book-button{
+  color: white;
+  background-color: black;
+}
+.schedule-button{
+  background-color: rgb(255, 214, 249);;
+
+}
