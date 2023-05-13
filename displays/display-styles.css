@@ -29,14 +29,36 @@
   font-size: 14px;
 }
 .google-logo {
-  margin: 20px 125px;
+  display: inline;
 }
 .search-bar {
-  display: block;
+  display: inline;
   font-family: arial;
   width: 550px;
   border: none;
   padding: 14px 5px;
   box-shadow: 0 0 4px 1px rgb(167, 152, 147);
   border-radius: 16px;
+}
+
+.google-buttons {
+  padding: 0.85rem 2rem;
+  border: none;
+  font-size: 16px;
+  background-color: rg b(253, 237, 251);
+  margin: 0 0.4rem;
+  transition: color 0.25s;
+  border-radius: 3px;
+  margin-top: 1.4rem;
+}
+.google-buttons:hover {
+  cursor: pointer;
+  background-color: rgb(240, 226, 239);
+}
+
+.google-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
 }
