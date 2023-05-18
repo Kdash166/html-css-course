@@ -13,11 +13,10 @@ body {
 }
 
 .video-preview {
-  width: 300px;
-  display: inline-block;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 .thumbnail {
-  display: block;
   width: 100%;
 }
 
