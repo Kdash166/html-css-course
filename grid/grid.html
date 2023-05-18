@@ -4,7 +4,7 @@
     <title>Grid Practice</title>
   </head>
   <link rel="stylesheel" href="grid.css" />
-  <body>
+  <body style="padding-bottom: 1000px">
     <div display style="display: grid; grid-template-columns: 100px 100px">
       <div style="background-color: lightblue">div 1</div>
       <div style="background-color: lightcoral">
@@ -47,8 +47,26 @@
       "
     >
       <div style="background-color: lightblue">100px</div>
-      <div style="background-color: lightcoral">1fr</div>
+      <div style="background-color: lightcoral">2fr</div>
       <div style="background-color: lightblue">1fr</div>
+    </div>
+
+    <div
+      display
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 40px;
+      "
+    >
+      <div style="background-color: lightblue; height: 200px">1fr</div>
+      <div style="background-color: lightcoral; height: 200px">1fr</div>
+      <div style="background-color: lightblue; height: 200px">1fr</div>
+      <div style="background-color: lightcoral; height: 200px">1fr</div>
+      <div style="background-color: lightblue; height: 200px">1fr</div>
+      <div style="background-color: lightcoral; height: 200px">1fr</div>
     </div>
   </body>
 </html>
