@@ -1,11 +1,16 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
 .profile-container {
-  display: inline-block;
-  height: auto;
-  width: 10rem;
-  margin: 0.3rem;
+  min-width: 150px;
   box-shadow: 0px 0px 3px 0px grey;
 }
 .black-hole {
