@@ -1,0 +1,17 @@
+.notifcations-container {
+  font-family: arial;
+  font-size: 14px;
+  display: flex;
+  flex-direction: rows;
+  justify-content: space-between;
+  border: grey 1px solid;
+  border-radius: 4px;
+}
+
+li {
+  list-style-type: none;
+}
+.message-counter {
+  background-color: blue;
+  border-radius: 4px;
+}

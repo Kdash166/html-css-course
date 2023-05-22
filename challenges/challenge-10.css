@@ -1,0 +1,42 @@
+body {
+  font-family: arial;
+}
+.notifications-container {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  border: grey 1px solid;
+  border-radius: 4px;
+  flex-direction: row;
+  width: 400px;
+  padding: 10px;
+}
+.notifcation-descriptions {
+  display: flex;
+  flex-direction: column;
+}
+
+.notifcation-text {
+  display: inline-block;
+}
+.notification-counter {
+  display: block;
+  background-color: blue;
+  border-radius: 15px;
+  color: white;
+  padding: 5px 10px;
+  line-height: 1;
+  font-weight: bold;
+}
+.counter-container {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.module-container {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,60 @@
+.first-flex-container {
+  display: flex;
+  flex-direction: row;
+  border: grey 1px solid;
+  /* width:275px; */
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+.one-a {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.two-a {
+  background-color: lightpink;
+  width: 75px;
+}
+
+.second-flex-container {
+  display: flex;
+  flex-direction: row;
+  border: grey 1px solid;
+  margin-bottom: 20px;
+}
+
+.one-b {
+  width: 50px;
+  background-color: lightblue;
+}
+.two-b {
+  background-color: lightpink;
+  flex: 1;
+}
+.three-b {
+  background-color: lightblue;
+  width: 75px;
+}
+
+.third-flex-container {
+  display: flex;
+  flex-direction: row;
+  border: grey 1px solid;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.item-box {
+  background-color: lightpink;
+}
+
+.forth-flex-container {
+  display: flex;
+  flex-direction: row;
+  border: grey 1px solid;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
