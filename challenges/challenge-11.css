@@ -62,3 +62,37 @@ h3 {
 .time {
   margin: 0;
 }
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+.handle-container {
+  padding-top: 0.6rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.post-body-text {
+  color: black;
+}
+
+.youtube-video-container {
+  border: 1px solid rgb(192, 190, 190);
+  display: flex;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.video-box {
+  flex: 1;
+  height: auto;
+  background-color: rgb(192, 190, 190);
+  max-width: 100px;
+}
+
+.text {
+  margin-left: 0.5rem;
+  flex: 2;
+}
