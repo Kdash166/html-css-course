@@ -1,0 +1,64 @@
+body {
+  font-size: 16px;
+  font-family: arial;
+  color: rgb(92, 92, 92);
+}
+
+h1 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.inbox-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(92, 92, 92);
+  border-radius: 4px;
+  height: fit-content;
+  padding: 1% 3%;
+  box-shadow: 0px 0px 5px grey;
+}
+.module-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.3rem;
+}
+.profile-picture {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 15px;
+}
+
+.time-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.time {
+  margin: 0;
+}
