@@ -1,0 +1,33 @@
+.main-container-one {
+  display: flex;
+  border: 1px grey solid;
+  margin-bottom: 20px;
+}
+.pink-container-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightpink;
+  width: 100px;
+  height: 50px;
+}
+.item-one {
+  color: white;
+  background-color: black;
+}
+.blue-container-one {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  width: 200px;
+  height: 50px;
+}
+
+.row-two {
+  display: flex;
+  justify-content: space-between;
+}
+.row-two-item {
+  background-color: black;
+  color: white;
+}
