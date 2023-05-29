@@ -1,0 +1,26 @@
+body {
+  margin: 75px;
+  height: 3000px;
+}
+.fixed-div {
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.div1 {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+}
+.div2 {
+  width: 200px;
+  height: 200px;
+  background-color: lightpink;
+}
