@@ -2,5 +2,7 @@ body {
   font-family: roboto, arial;
   margin: 0;
   padding-top: 80px;
-  padding-left: 72px;
+  padding-left: 95px;
+  padding-right: 72px;
+  background-color: rgb(241, 241, 241);
 }

@@ -1,0 +1,66 @@
+body {
+  padding-top: 75px;
+  padding-left: 75px;
+  height: 3000px;
+}
+.fixed-header {
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.fixed-sidebar {
+  background-color: green;
+  color: white;
+  position: fixed;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  width: 72px;
+  padding: 0;
+  margin: 0;
+}
+.absolute {
+  position: absolute;
+  right: 10px;
+  top: 60px;
+  background-color: red;
+  color: white;
+  z-index: 100;
+}
+
+.x-btn {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: red;
+  color: white;
+  z-index: 100;
+}
+
+.absolute-2 {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  background-color: black;
+  color: white;
+  z-index: 100;
+}
+
+.div1 {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+}
+.div2 {
+  width: 200px;
+  height: 200px;
+  background-color: lightpink;
+  position: relative;
+}

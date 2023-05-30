@@ -1,0 +1,62 @@
+body{
+    font-family: arial;
+    height: 3000px;
+}
+.main-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 50%;
+  background-color: black;
+  display:flex;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  width: 30%;
+  background-color: rgb(17, 17, 17);
+  height: 100%;
+  padding: 1rem 0.4rem;
+}
+
+.user-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 5px;
+    
+
+}
+.tag-container {
+padding: 0.8rem 1rem;
+  width: 70%;
+  background-color: rgb(39, 38, 38);
+}
+
+.title-div{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+
+}
+
+.title{
+    color: white;
+    font-weight: bold;
+
+}
+.plus{
+    padding:0;
+    margin: 0;
+    font-size: xx-large;
+    color: rgb(168, 168, 168);
+
+}
+
+.list-items{
+   font-size: 18px; 
+   color: rgb(168, 168, 168);
+}
